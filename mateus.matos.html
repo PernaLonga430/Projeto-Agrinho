@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conexão Campo e Cidade</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+  <!-- Cabeçalho -->
+  <header class="bg-green-600 text-white py-6">
+    <div class="container mx-auto text-center">
+      <h1 class="text-4xl font-bold">Conexão Campo e Cidade</h1>
+      <p class="mt-2 text-lg">Unindo a natureza e o urbano para um futuro sustentável</p>
+    </div>
+  </header>
+
+  <!-- Seção Principal -->
+  <section class="container mx-auto py-12 px-4">
+    <div class="flex flex-col md:flex-row gap-8">
+      <!-- Texto -->
+      <div class="md:w-1/2">
+        <h2 class="text-3xl font-semibold text-gray-800 mb-4">A Importância da Conexão</h2>
+        <p class="text-gray-600 mb-4">
+          A relação entre o campo e a cidade é essencial para o equilíbrio da sociedade. O campo fornece alimentos, recursos naturais e matérias-primas, enquanto a cidade oferece infraestrutura, tecnologia e mercados consumidores. Essa interdependência cria uma ponte vital para o desenvolvimento sustentável.
+        </p>
+        <p class="text-gray-600 mb-4">
+          Por exemplo, a agricultura familiar no campo abastece feiras e mercados urbanos, promovendo a economia local e a alimentação saudável. Ao mesmo tempo, tecnologias desenvolvidas nas cidades, como aplicativos de logística, ajudam os produtores rurais a otimizar suas cadeias de distribuição.
+        </p>
+      </div>
+      <!-- Imagem -->
+      <div class="md:w-1/2">
+        <img src="https://images.unsplash.com/photo-1500595046743-eeae20a0d4dc?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80" alt="Conexão Campo e Cidade" class="w-full h-auto rounded-lg shadow-md">
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção de Exemplos -->
+  <section class="bg-white py-12">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-semibold text-gray-800 text-center mb-8">Exemplos de Conexão</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Card 1 -->
+        <div class="bg-gray-50 p-6 rounded-lg shadow-md text-center">
+          <img src="https://www.bigtires.com.br/media/blog/cache/1100x/magefan_blog/agricultura-sustentavel-cover.png" alt="Agricultura" class="w-full h-48 object-cover rounded-md mb-4">
+          <h3 class="text-xl font-semibold text-gray-800">Agricultura Sustentável</h3>
+          <p class="text-gray-600">Produtores rurais utilizam técnicas sustentáveis para fornecer alimentos frescos às cidades, reduzindo o impacto ambiental.</p>
+        </div>
+        <!-- Card 2 -->
+        <div class="bg-gray-50 p-6 rounded-lg shadow-md text-center">
+          <img src="https://www.ipiau.ba.gov.br/images/noticias/331/16ef538e641878af44f053bf5f91bdad.jpg" alt="Mercados" class="w-full h-48 object-cover rounded-md mb-4">
+          <h3 class="text-xl font-semibold text-gray-800">Feiras Locais</h3>
+          <p class="text-gray-600">Feiras urbanas conectam consumidores diretamente com agricultores, fortalecendo laços comunitários.</p>
+        </div>
+        <!-- Card 3 -->
+        <div class="bg-gray-50 p-6 rounded-lg shadow-md text-center">
+          <img src="https://blog.cowboystore.com.br/wp-content/uploads/2017/07/aplicativos-rurais-dicas.jpg" alt="Tecnologia" class="w-full h-48 object-cover rounded-md mb-4">
+          <h3 class="text-xl font-semibold text-gray-800">Inovação Tecnológica</h3>
+          <p class="text-gray-600">Aplicativos e plataformas digitais ajudam a otimizar a logística entre o campo e a cidade.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="container mx-auto text-center">
+      <p class="text-lg">Contato: de.matos.mateus@escola.pr.gov.br</p>
+      <p class="mt-2">© 2025 Conexão Campo e Cidade. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Script para interatividade (opcional) -->
+  <script>
+    // Adicionar um efeito simples de rolagem suave para links internos (se houver)
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
